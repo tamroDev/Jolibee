@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+#footer {
+    margin: 0;
+}
+
+.about-container {
+    padding: 0;
+}
+
+.banner-about {
+    background-color: #ffc522;
+    width: 100%;
+    height: auto;
+    padding: 40px 120px 0 80px;
+    position: relative;
+}
+
+.bee {
+    width: 50%;
+}
+
+.content-banner-about {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    padding: 30px;
+    transform: translateX(-10%);
+}
+
+.content-banner-about h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #e31837;
+    margin: 40px 0;
+    font-family: "Signika";
+}
+
+.content-banner-about p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.about-center {
+    padding: 60px;
+    width: 100%;
+    background-color: #f5f1e6;
+}
+
+.about-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.about-title h1 {
+    color: #e31837;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Signika";
+}
+
+.center-content {
+    width: 65%;
+    margin: auto;
+}
+
+.center-content p {
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.about-bottom {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.about-bottom img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.item-bottom {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-bottom: 196px;
+
+}
+
+.about-bottom-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 91px;
+    padding-bottom: 59px;
+    font-family: "Signika";
+}
+
+.icon-group {
+    flex-direction: initial;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.icon-group .icon-content {
+    width: calc(100% / 3);
+    padding: 24px 0;
+}
+
+.icon-content i {
+    font-style: normal;
+    font-size: 56px;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+}
+
+.icon-text {
+    padding: 0 15px;
+    margin-top: 16px;
+    color: white;
+    font-size: 24px;
+    font-family: "Signika";
+
+}
+
+.about-end {
+    display: flex;
+}
+
+.img-end {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.img-end img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.content-end {
+    width: 60%;
+    padding: 80px 40px;
+}
+
+.content-end .text-end {
+    margin: 40px;
+    margin-bottom: 100px;
+}
+
+.content-end h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #e31837;
+    font-family: "Signika"; 
+    font-weight: 900;
+}
+
+.content-end p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 28px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+.banner-service {
+    background: url(https://jollibee.com.vn/media/services/services.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px;
+
+}
+
+.banner-text {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+.title-service {
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+    font-family: "Oswald";
+    letter-spacing: 0.5px;
+    height: 30%;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.line-banner {
+    width: 90%;
+    height: 5px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.text-service {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.text-service p {
+    letter-spacing: 0.5px;
+    font-family: "Oswald";
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.arrow {
+    width: 100%;
+    text-align: center;
+    transform: translateY(0%);
+    animation: slideIn 1.5s ease-out infinite;
+}
+
+.arrow i {
+    font-size: 45px;
+    color: white;
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(-60%);
+    }
+    25% {
+      transform: translateY(-30%);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(-30%);
+    }
+    100% {
+      transform: translateY(-60%);
+    }
+}
+
+.service-end {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 60px 0;
+    height: 400px;
+    padding: 30px;
+}
+
+.service-end:nth-child(even) {
+    background-color: #fff;
+
+}
+
+.service-item-end {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.img-service {
+    text-align: center;
+    width: 50%;
+}
+
+.img-service img {
+    display: block;
+    margin: auto;
+    height: 320px;
+}
+
+.service-text-end {
+    width: 50%;
+    height: 100%;
+    margin: 30px 0 70px 0;
+}
+
+.service-text-end h1 {
+    font-size: 50px;
+    color: #e31837;
+    font-weight: 800;
+    font-family: "Oswald";
+    margin-bottom: 40px;
+}
+
+.service-text-end p {
+    margin-bottom: 25px;
+    line-height: 26px;
+    font-size: 20px;
+}
+
+.service-text-end a {
+    padding: 14px 24px;
+    background-color: #e31837;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.service-end:first-child .service-item-end .service-text-end h1 {
+    margin-bottom: 120px;
+}

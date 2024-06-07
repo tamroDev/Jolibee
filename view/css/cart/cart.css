@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;1,800&display=swap');
+.cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sale {
+    width: 120px;
+    height: 40px;
+    background-color: #ff052b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transform: translateX(10%);
+}
+
+.cart-title {
+    width: 25%;
+    text-align: center;
+    margin: 40px 0;
+    padding-bottom: 20px;
+    border-bottom: 4px solid black;
+}
+
+.cart-title h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #e31837;
+    font-family: 'Nunito';
+}
+
+.boxPro {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 70px 70px 70px;
+}
+
+.boxCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 550px;
+    gap: 30px;
+    border: 2px dashed black;
+    border-radius: 5px;
+    padding: 50px;
+    position: relative;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    height: 300px;
+    margin: auto;
+}
+
+.product h2 {
+    font-weight: 800;
+    text-align: center;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.user-action form   {
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    height: 100%;
+    gap: 30px;
+}
+
+.price h2,
+.quantity h2 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.price,.price span  {
+    color: #e31837;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.quantity input[type="button"]{
+    padding: 10px;
+    background-color: #e31837;
+    border: none;
+    color: white;
+    font-weight: 800;
+}
+
+.quantity input[type="button"]:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.quantity input[type="text"]{
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 0 20px;
+    font-weight: 800;
+
+}
+
+.btn-addCart button{
+    width: 170px;
+    height: 50px;
+    background-color: #e31837;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.btn-addCart button:hover {
+    background-color: #000;
+}
+
+.line-cart {
+    height: 50%;
+    width: 4px;
+    background-color: #000000c1;
+    border-radius: 50%;
+    margin: 0 40px;
+}
+
+  /* Hide the default checkbox */
+.container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.container-checkbox {
+    display: flex;
+    gap: 10px;
+    padding: 15px 20px;
+    border: 1px solid black;
+    background-color: #eeeeee;
+}
+
+
+/* Create a custom checkbox */
+.checkmark {
+    position: relative;
+    box-shadow: rgb(255, 84, 0) 0px 0px 0px 2px;
+    background-color: rgba(16, 16, 16, 0.5);
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    margin-top: -1px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    transform-origin: 0px 10px;
+    border-radius: 4px;
+    margin:  15px 10px 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-checkbox input:checked ~ .checkmark {
+    box-shadow: rgb(255, 84, 0) 0px 0px 0px 2px;
+    background-color: rgba(245, 24, 24, 0.5);
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    margin-top: -1px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    transform-origin: 0px 10px;
+    border-radius: 4px;
+    margin: 15px 10px 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+    transition: all 500ms ease-in-out;
+}
+
+.container-checkbox h2 strong {
+    font-weight: 800;
+}
+
+.container-checkbox h2 {
+    opacity: 0.8;
+    font-size: 13px;
+    margin-left: 0px;
+}
+
+.like-products {
+    width: 30%;
+}
+
+.like-title {
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #e31837;
+    width: 100%;
+    padding-bottom : 5px; 
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+
+}
+
+.like-product {
+    height: auto;
+    border: 3px dashed black;
+    max-height: 480px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.like-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b4b0b0;
+    width: 100%;
+}
+.like-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.like-item:last-child {
+    border: none;
+}
+
+.like-item img {
+    max-width: 300px;
+    max-height: 300px;
+    margin:10px auto;
+}
+
+.like-item .content-like{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.content-like span {
+    color: #e31837;
+}
+
+
+/* width */
+.like-product::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+  
+  /* Track */
+.like-product::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;    
+}
+  
+  /* Handle */
+.like-product::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+.like-product::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background: #555;
+}

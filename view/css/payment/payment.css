@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* TITLE */
+#article {
+    font-family: 'Barlow';
+    margin-top: 120px;
+}
+
+
+.payMent-container {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.payMent-container .title-payments {
+    width: 80%;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.title-payment {
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    background-color: #ffc522;
+    /* border-radius: 0px 0px 0px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle-right {
+    margin-right: 7px;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 25px solid #ffc522;
+    border-bottom: 25px solid transparent;
+  }
+  
+
+.title-payment h1 {
+    font-family: 'Smooch Sans';
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.title-payment .circle {
+    border-radius: 50%;
+    font-size: 22px;
+    padding:5px;
+    border: 2px solid black;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+/* TITLE END*/
+
+/* FORM */
+
+.form-container {
+    padding: 0;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.form-container .title-form {
+    margin: 20px 0 40px 0;
+    font-size: 25px;
+    font-weight: 800;
+    color: #e31837;
+    font-family: "Coiny";
+}
+
+.form-container .attention {
+    /* border: 3px solid #d8d5d5ee; */
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.form-container .attention h1 {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e31837;
+}
+
+.form-container .attention p {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.form-container form .form-flex {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 20px;
+}
+
+
+
+.form-input input {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+
+
+.input {
+    height: 34px;
+    font-size: 0.8rem;
+}
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    height: 76px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-container button {
+    height: 40px;
+    width: 200px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+}
+
+.step-2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-2 a ,.step-2 button{
+    color: white;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;  
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #e31837;
+    transition: 1.5s;
+}
+
+.step-2:hover {
+    color: #05060f;
+    opacity: 0.8;
+}
+
+.step-2  .animation {
+    margin-left: 10px;
+    transform: 1.5s;
+    animation: stepPay .8s ease-out infinite;
+}
+
+@keyframes stepPay {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    25% {
+        transform: translateX(-25%);
+        
+    }
+
+    50% {
+        transform: translateX(0%);
+        
+    }
+
+    75% {
+        transform: translateX(25%);
+        
+    }
+
+    100% {
+        transform: translateX(50%);
+    }
+}
+
+/* Step 2 */
+
+.payMethod-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    align-items: self-start;
+    flex-direction: row;
+}
+
+.title-payMethod {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Coiny';
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.content-payMethod {
+    width: 50%;
+
+}
+
+.round {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+}
+
+.round h1 {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.cart-container {
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.cart-postion {
+    background-color: #f5f1e6;
+    border-radius: 20px 20px;
+    padding: 15px;
+    width: 100%;
+    top: 0;
+    left: 0;right: 0;
+}
+
+.cart-container .title-payMethod {
+    padding: 10px;
+    border-bottom: 2px dashed black;
+}
+
+.title-payMethod span{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: red;
+    font-size: 18px;
+    font-family: 'Barlow';
+    font-weight: 600;
+    margin: 5px 0;
+
+}
+
+.cart {
+    width: 100%;
+    height: auto;
+    max-height: 230px;
+    overflow-y: auto;
+    background-color: #f5f1e6;
+}
+
+.cart-item {
+    max-height: 200px;
+    border-bottom: 1px dashed black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.cart-item:last-child {
+    border: none;
+}
+
+.img-info ,
+.product-content{
+    width: 100%;
+    height: 100%;
+}
+
+.img-info img {
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.product-content {
+    display:flex;
+    align-items:self-start;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.product-content h2 {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.text-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text-content div {
+    margin-bottom: 10px;
+
+}
+
+.text-content div span {
+    font-weight: 600;
+    color: red;
+}
+
+
+.text-content div strong {
+    font-weight: 600;
+    margin-right: 10px;
+    color: black;
+
+}
+
+
+/* width */
+.cart::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+  
+  /* Track */
+.cart::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;    
+}
+  
+  /* Handle */
+.cart::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+.cart::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background: #555;
+}
+
+.priceDot p {
+    color:black ; 
+    margin-right:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow';
+}
+
+.priceDot p span {
+    margin-left: 10px;
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxContent {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+}
+
+/* STEP 3 */
+
+.content-payment3 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.payment3-item {
+    margin: 0 50px;
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.text-payment3 {
+    font-size: 18px;
+    text-align: center;
+    color: #e31837;
+    font-weight: 600;
+    font-family: "coiny";
+    letter-spacing: 0.7px;
+    transition: 0.5s;
+}
+
+.icon-payment3 {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+
+.icon-payment3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.payment3-item a {
+    text-transform: uppercase;
+    padding: 10px 16px;
+    background-color: #e31837;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.payment3-item a:hover {
+    opacity: 0.8;
+}

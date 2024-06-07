@@ -1,0 +1,92 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    text-align: center;
+    font-weight: 800;
+}
+
+th {
+    background-color: #2c2c2c;
+    color: white;
+    font-size: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* or any color you prefer */
+}
+
+tr:first-child:hover {
+    background-color: #2c2c2c;
+
+}
+
+tr .action-btn a i:hover {
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #8e8e8e;
+    color: white;
+    cursor: pointer;
+}
+
+tr:hover a {
+    color: white;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+.action-btn a {
+    font-size: 30px;
+    color: black;
+    margin: 10px;
+}
+
+.select-box {
+    width: 100%;
+}
+
+.select-box h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+select {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white;
+    margin: 20px;
+}
+
+/* CSS cho các tùy chọn trong thẻ select */
+select option {
+    font-size: 16px;
+}
+
+/* CSS cho thẻ select khi được hover */
+select:hover {
+    border-color: #333;
+}
+
+/* CSS cho thẻ select khi được focus */
+select:focus {
+    outline: none;
+    border-color: #555;
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.5);
+}

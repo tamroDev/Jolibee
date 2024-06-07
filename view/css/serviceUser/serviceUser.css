@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.container-function {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.title-function {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: auto;
+    gap: 30px;
+}
+
+.title-function i {
+    font-size: 55px;
+}
+
+.title-function h1 {
+    font-size: 35px;    
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.line-function {
+    width: 70%;
+    margin: auto;
+    height: 5px;
+    border-radius: 12px;
+    background-color: #e31837;
+    margin: 20px auto;
+}
+
+.list-function {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+}
+
+.function-item {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.function-item i {
+    font-size: 40px;
+}
+
+.function-item a {
+    font-weight: 800;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "IBM Plex Sans";
+    opacity: 0.7;
+}
+
+.function-item a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.form-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.update-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-input input {
+    width: 400px;
+}
+
+.input-group {
+    height: 70px;
+}
+
+.title-img {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.img-update img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    object-fit: cover;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+.button-wrapper {
+  position: relative;
+  width: 150px;
+  text-align: center;
+  margin: 10% auto;
+}
+
+.button-wrapper span.label {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  width: 100%;
+  background: #00bfff;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 0;
+  text-transform:uppercase;
+  font-size:12px;
+}
+
+#upload {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}

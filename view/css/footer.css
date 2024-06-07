@@ -1,0 +1,117 @@
+#footer {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #e31837;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+
+.footer-intro-content {
+    margin: 20px 10px;
+}
+
+.footer-intro{
+    width: 50%;
+}
+
+.footer-intro {
+    display: flex;
+}
+
+.footer-intro .logo {
+    width: 200px;
+    max-height: 200px;
+    margin: 5px 10px;
+
+}
+
+.footer-other ,
+.footer-hotline ,
+.footer-adr {
+    color: white;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-center {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    gap: 10px;
+    height: 200px;
+}
+
+.center-policy {
+    display:flex;
+    align-items:self-start  ;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.center-policy a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.footer-end {
+    display:flex;
+    align-items:self-start  ;
+    justify-content:center;
+    flex-direction:column;
+    gap: 20px;
+    width: 20%;
+
+}
+
+.end-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    font-style: italic;
+}
+
+.social-network {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facebook,.email {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-network a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px ;
+    margin-top: 10px;
+}
+
+.social-network a:hover {
+    text-decoration: underline;
+}
+
+.social-network i {
+    color: yellow;
+    font-size: 30px;
+    margin-top: 10px;   
+}
+
+.bocongthuong {
+    border-top: 2px solid black;
+    padding-top: 10px;
+    width: 100%;
+}

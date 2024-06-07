@@ -1,0 +1,86 @@
+.right {
+    padding: 0px;
+}
+
+
+.payMent-container {
+    padding: 10px;
+}
+.form-container .title-form {
+    text-align: center;
+    margin-top: 0;
+}
+
+.payMethod-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.form-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.boxContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.cart-container {
+    background-color: #c8c2b4;
+    width: 80%;
+    margin: auto;
+}
+
+.cart {
+    max-height: 450px;
+    width: 100%;
+    margin: auto;
+    background-color: #c8c2b4;
+}
+
+.product-content h2 {
+    color: black;
+    font-weight: 800;
+}
+
+.text-content div  {
+    color: black;
+}
+
+.back {
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    background-color: #e31837;
+    border-radius: 10px;
+}
+
+.back a {
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+    line-height: 40px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.title-payMethod {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-payMethod span {
+    font-family: "coiny";
+
+}
